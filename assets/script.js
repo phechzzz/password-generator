@@ -5,19 +5,19 @@ function generatePassword(){
   console.log('button clicked')
   var characters ='';
   
-  var upperChoice = window.confirm('Click OK to include uppercase characters')
+  var upperChoice = window.confirm('Click OK to include uppercase characters.')
   if (upperChoice) {
     characters += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
   }
-  var lowerChoice = window.confirm('Click OK to include lowercase characters')
+  var lowerChoice = window.confirm('Click OK to include lowercase characters.')
   if (lowerChoice){
     characters += 'abcdefghijklmnopqrstuvwxyz'
   }
-  var numberChoice = window.confirm('Click OK to include numbers')
+  var numberChoice = window.confirm('Click OK to include numbers.')
   if (numberChoice){
     characters += '0123456789'
   }
-  var specialChoice = window.confirm('Click OK to include special characters')
+  var specialChoice = window.confirm('Click OK to include special characters.')
   if (specialChoice){
     characters += '!#$%&*+,-./:;<=>?@\^_{|}~'
   }
