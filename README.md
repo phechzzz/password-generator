@@ -1,5 +1,5 @@
 # Random Password Generator
-## What/
+## What?
 Using JavaScript, in addition to pre existing HTML and CSS files, to program a random password generator based on user input.
 ## Why?
 The purpose of this assignment was to practice and get more comfortable with the syntax and basic functions of JavaScript.
